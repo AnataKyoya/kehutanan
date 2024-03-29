@@ -322,6 +322,27 @@ footer {
     overflow: hidden;
 }
 
+.atas {
+    position: fixed;
+    z-index: 1;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: #111111;
+}
+
+.atas a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+}
+
 @media (max-width: 1335px) {
     .capaian h2 {
         height: 105px;
